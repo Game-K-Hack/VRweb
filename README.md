@@ -56,6 +56,6 @@ Pour accéder à Google map en VR il faut se rendre sur l'URL `http://192.168.1.
 
 Ce programme créer un décalage dans l'image. Sur l'image suivante qui est une capture d'écran de Google Earth, on peut voir en rouge l'image pour l'oeil gauche, et en bleu l'image pour l'oeil droit.
 
-![](https://cdn.discordapp.com/attachments/1033521416726913125/1033524920849793064/screenshot.png)
+![](https://cdn.discordapp.com/attachments/1033521416726913125/1033525988602150972/capture.png)
 *Google Earth, Los Angeles, 03/01/2020*
 
