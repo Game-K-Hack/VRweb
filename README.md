@@ -41,21 +41,20 @@ Pour la démo, l'ordinateur à l'ip local suivante: `192.168.1.31`
 
 Pour accéder à Google map en VR il faut se rendre sur l'URL `http://192.168.1.31:5000/map` et attendre que la page Google map soit entièrement chargé puis appuyer sur **Entré** dans le terminal et enfin aller sur l'URL `http://192.168.1.31:5000/live` pour voir en VR.
 
-![](https://cdn.discordapp.com/attachments/1033521416726913125/1033521469424156672/Clipboard01.png)
+![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/Clipboard01.png)
 *Google Map, Los Angeles, 2022*
 
 ### Google Earth
 
-![](https://cdn.discordapp.com/attachments/1033521416726913125/1033521469868736623/Clipboard02.png)
+![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/Clipboard02.png)
 *Google Earth, Terre*
 
-![](https://cdn.discordapp.com/attachments/1033521416726913125/1033521470309159002/Clipboard03.png)
+![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/Clipboard03.png)
 *Google Earth, Los Angeles, 03/01/2020*
 
 ## Fonctionnement
 
 Ce programme créer un décalage dans l'image. Sur l'image suivante qui est une capture d'écran de Google Earth, on peut voir en rouge l'image pour l'oeil gauche, et en bleu l'image pour l'oeil droit.
 
-![](https://cdn.discordapp.com/attachments/1033521416726913125/1033525988602150972/capture.png)
+![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/screenshot.png)
 *Google Earth, Los Angeles, 03/01/2020*
-
