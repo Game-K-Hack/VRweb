@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#Description">Description</a> •
   <a href="#Installation">Installation</a> •
-  <a href="#Paramètrage">Paramètrage</a> •
+  <a href="#Paramètrage">Paramétrage</a> •
   <a href="#Demo">Demo</a> •
   <a href="#Fonctionnement">Fonctionnement</a>
 </p>
