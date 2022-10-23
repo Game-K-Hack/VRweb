@@ -26,11 +26,11 @@ Pour que ce script fonctionne il faut avoir Python en version 3.9 *(ou une versi
 
 | Nom | Commande d'installation |
 | ------ | ------ |
-| Pillow | pip install Pillow |
-| Numpy | pip install numpy |
-| Selenium | pip install selenium |
-| OpenCV | pip install opencv-python |
-| Flask | pip install Flask
+| Pillow | `pip install Pillow` |
+| Numpy | `pip install numpy` |
+| Selenium | `pip install selenium` |
+| OpenCV | `pip install opencv-python` |
+| Flask | `pip install Flask` |
 
 ## Paramétrage
 
