@@ -1,8 +1,25 @@
-<h1 align="center" >
-    <img src="https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/WebVR.png" width=75 />
-    <br>
-    WEB VR
-</h1>
+<p align="center" >
+    <img src="https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/WebVR.png" width=150 />
+</p>
+
+<br>
+
+<div align="center">
+  <a href="#">
+    <img src="https://img.shields.io/static/v1?label=release&message=v1.0&color=blue" alt="Release - v1.2" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/static/v1?label=version&message=unstable&color=red" alt="Version - Unstable" />
+  </a>
+  <a href="https://choosealicense.com/licenses/mit">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License" />
+  </a>
+  <a href="https://www.paypal.com/paypalme/gamekdonate">
+    <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate" />
+  </a>
+</div>
+
+<h4 align="center">This program makes internet in virtual reality</h4>
 
 <p align="center">
   <a href="#Description">Description</a> •
@@ -12,7 +29,6 @@
   <a href="#Fonctionnement">Fonctionnement</a>
 </p>
 
-<br>
 <br>
 <br>
 
