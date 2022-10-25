@@ -22,11 +22,11 @@
 <h4 align="center">This program makes internet in virtual reality</h4>
 
 <p align="center">
-  <a href="#Description">Description</a> •
-  <a href="#Installation">Installation</a> •
-  <a href="#Paramétrage">Paramétrage</a> •
-  <a href="#Demo">Demo</a> •
-  <a href="#Fonctionnement">Fonctionnement</a>
+  <a href="#description">Description</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#setting">Setting</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#functioning">Functioning</a>
 </p>
 
 <br>
@@ -34,13 +34,13 @@
 
 ## Description
 
-Web VR va permettre de voir en réalité virtuel tous ce que l'ont desire sur internet: Vidéo, Google Earth, Google map, image, ... Cet algorithme Python va prendre une capture d'écran du navigateur afin de créer un décalage dans l'image pour pouvoir avoir cette dernière en VR.
+Web VR will allow you to see in virtual reality everything you want on the internet: Video, Google Earth, Google map, image, ... This Python algorithm will take a screenshot of the browser in order to create a shift in the image to be able to have the latter in VR.
 
 ## Installation
 
-Pour que ce script fonctionne il faut avoir Python en version 3.9 *(ou une version supérieure)* et avoir installé les librairies suivantes:
+For this script to work, you must have Python in version 3.9 *(or a higher version)* and have installed the following libraries:
 
-| Nom | Commande d'installation |
+| Name | Installation command |
 | ------ | ------ |
 | Pillow | `pip install Pillow` |
 | Numpy | `pip install numpy` |
@@ -48,19 +48,19 @@ Pour que ce script fonctionne il faut avoir Python en version 3.9 *(ou une versi
 | OpenCV | `pip install opencv-python` |
 | Flask | `pip install Flask` |
 
-## Paramétrage
+## Setting
 
-Pour paramétrer correctement la VR par rapport à l'appareil utilisé, il faut récupérer dans le téléphone la hauteur et la largeur de l'écran en pixel. Pour cela il faut se rendre dans les paramètres de ce dernier puis chercher la rubrique **à propos du téléphone** et trouver la résolution. Une fois cette étape terminée il faut modifier dans le script les variables `width` et `height` avec vos propres valeurs. Dans notre cas la résolution du téléphone étaient 2160 x 1080 donc les variables était `width, height = (2160, 1080)`.
+To correctly configure the VR in relation to the device used, the height and width of the screen in pixels must be retrieved from the phone. To do this, you have to go to the settings of the latter then look for the section **about the phone** and find the resolution. Once this step is complete, modify the `width` and `height` variables in the script with your own values. In our case the resolution of the phone was 2160 x 1080 so the variables were `width, height = (2160, 1080)`.
 <br>
-Pour que le streaming VR fonctionne, il faut que l'ordinateur soit sur le même réseau que le téléphone. Pour pouvoir voir la page web, il faut mettre l'IP de l'ordinateur dans le navigateur du téléphone.
+For VR streaming to work, the computer must be on the same network as the phone. To be able to see the web page, you must put the computer's IP in the phone's browser.
 
 ## Demo
 
-Pour la démo, l'ordinateur a l'IP local suivante: `192.168.1.31`
+For the demo, the computer has the following local IP: `192.168.1.31`
 
 ### Google Map
 
-Pour accéder à Google map en VR il faut se rendre sur l'URL `http://192.168.1.31:5000/map` et attendre que la page Google map soit entièrement chargé puis appuyer sur **Entré** dans le terminal et enfin aller sur l'URL `http://192.168.1.31:5000/live` pour voir en VR.
+To access Google map in VR you have to go to the URL `http://192.168.1.31:5000/map` and wait for the Google map page to be fully loaded then press **Enter** in the terminal and finally go to the URL `http://192.168.1.31:5000/live` to see in VR.
 
 ![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/Clipboard01.png)
 *Google Map, Los Angeles, 2022*
@@ -73,9 +73,9 @@ Pour accéder à Google map en VR il faut se rendre sur l'URL `http://192.168.1.
 ![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/Clipboard03.png)
 *Google Earth, Los Angeles, 03/01/2020*
 
-## Fonctionnement
+## Functioning
 
-Les casques de réalité virtuelle se basent sur notre physiologie, en présentant des images légèrement décalées d'un œil à l'autre afin de reproduire une vision binoculaire (dans la réalité, nos yeux captent en effet deux images différentes que notre cerveau combine afin de créer une image unique tridimensionnelle). Ce programme conçoit donc deux images légèrement décalées l'une de l'autre à partir d'une seule et même image, afin que le cerveau puisse combiner ces dernières pour lui faire croire une réalité en 3 dimensions. Sur l'image suivante qui est une capture d'écran de Google Earth, on peut voir en rouge l'image pour l'oeil gauche, et en bleu l'image pour l'oeil droit.
+Virtual reality headsets are based on our physiology, presenting images slightly shifted from one eye to the other in order to reproduce binocular vision (in reality, our eyes indeed capture two different images that our brain combines in order to create a unique three-dimensional image). This program therefore designs two images slightly offset from each other from a single image, so that the brain can combine them to make it believe in a 3-dimensional reality. On the following image which is a screenshot of Google Earth, we can see in red the image for the left eye, and in blue the image for the right eye.
 
 ![](https://raw.githubusercontent.com/Game-K-Hack/VRweb/main/images/screenshot.png)
 *Google Earth, Los Angeles, 03/01/2020*
